@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#106e65</color>
+    <color name="colorPrimaryDark">#38998f</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="kcatGray">#aba9a9</color>
+    <color name="kcatGray">#e46f8b88</color>
     <color name="kcatWhite">#ffffff</color>
 
 </resources>

@@ -22,7 +22,7 @@ public class ExploreActivity extends AppCompatActivity {
         songs.add(new Song("Tribe Called Quest", "We the People", "We Got It From Here Thank You 4 Your Service", "2016"));
         songs.add(new Song("The Glitch Mob", "Come Closer", "See Without Eyes", "2018"));
         songs.add(new Song("Mac DeMarco", "My Kind of Woman", "2", "2012"));
-        songs.add(new Song("Cake", "Sheep Go To Heave", "Prolonging the Magic", "1998"));
+        songs.add(new Song("Cake", "Sheep Go To Heaven", "Prolonging the Magic", "1998"));
         songs.add(new Song("Washed Out", "All I Know", "Paracosm", "2013"));
         songs.add(new Song("Run the Jewels", "Legend Has It", "RTJ & Black Panther", "2017"));
 
