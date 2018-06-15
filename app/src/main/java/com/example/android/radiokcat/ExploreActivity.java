@@ -15,16 +15,16 @@ public class ExploreActivity extends AppCompatActivity {
 
         ArrayList<Song> songs = new ArrayList<Song>();
 
-        songs.add(new Song("father", "әpә"));
-        songs.add(new Song("mother", "әṭa"));
-        songs.add(new Song("son", "angsi"));
-        songs.add(new Song("daughter", "tune"));
-        songs.add(new Song("older brother", "taachi"));
-        songs.add(new Song("younger brother", "chalitti"));
-        songs.add(new Song("older sister", "teṭe"));
-        songs.add(new Song("younger sister", "kolliti"));
-        songs.add(new Song("grandmother", "ama"));
-        songs.add(new Song("grandfather", "paapa"));
+        songs.add(new Song("Blackbear", "Wish You the Best", "Digital Druglord", "2017"));
+        songs.add(new Song("Clams Casino", "I Am God", "Instrumentals 2", "2012"));
+        songs.add(new Song("Kadhja Bonet", "Another Time Lover", "Childqueen", "2018"));
+        songs.add(new Song("Kim Wilde", "Kids In America", "Kim Wilde", "1981"));
+        songs.add(new Song("Tribe Called Quest", "We the People", "We Got It From Here Thank You 4 Your Service", "2016"));
+        songs.add(new Song("The Glitch Mob", "Come Closer", "See Without Eyes", "2018"));
+        songs.add(new Song("Mac DeMarco", "My Kind of Woman", "2", "2012"));
+        songs.add(new Song("Cake", "Sheep Go To Heave", "Prolonging the Magic", "1998"));
+        songs.add(new Song("Washed Out", "All I Know", "Paracosm", "2013"));
+        songs.add(new Song("Run the Jewels", "Legend Has It", "RTJ & Black Panther", "2017"));
 
 
         SongAdapter adapter = new SongAdapter(this, songs);

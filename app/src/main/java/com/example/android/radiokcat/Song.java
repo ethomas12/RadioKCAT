@@ -2,36 +2,46 @@ package com.example.android.radiokcat;
 
 public class Song {
 
-    /** Default translation for the word */
-    private String mDefaultTranslation;
-
-    /** Miwok translation for the word */
-    private String mMiwokTranslation;
+    private String mArtistSong;
+    private String mTitleSong;
+    private String mAlbumSong;
+    private String mYearSong;
 
     /**
-     * Create a new Word object.
+     * Create a new Song object.
      *
-     * @param defaultTranslation is the word in a language that the user is already familiar with
-     *                           (such as English)
-     * @param miwokTranslation is the word in the Miwok language
+     * @param artistSong is Name of song Artist
+     *
+     * @param titleSong is Title of the song
+     *
+     * @param albumSong is Album the song is on
+
+     * @param yearSong is the Year the song came out
      */
-    public Song(String defaultTranslation, String miwokTranslation) {
-        mDefaultTranslation = defaultTranslation;
-        mMiwokTranslation = miwokTranslation;
+    public Song(String artistSong, String titleSong, String albumSong, String yearSong) {
+        mArtistSong = artistSong;
+        mTitleSong = titleSong;
+        mAlbumSong = albumSong;
+        mYearSong = yearSong;
     }
 
     /**
      * Get the default translation of the word.
      */
-    public String getDefaultTranslation() {
-        return mDefaultTranslation;
+    public String getArtistSong() {
+        return mArtistSong;
     }
 
-    /**
-     * Get the Miwok translation of the word.
-     */
-    public String getMiwokTranslation() {
-        return mMiwokTranslation;
+    public String getTitleSong() {
+        return mTitleSong;
+    }
+
+    public String getAlbumSong() {
+        return mAlbumSong;
+    }
+
+    public String getYearSong() {
+        return mYearSong;
     }
 
 }

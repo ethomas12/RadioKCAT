@@ -28,11 +28,17 @@ public class SongAdapter extends ArrayAdapter<Song> {
 
         Song currentSong = (Song) getItem(position);
 
-//        TextView miwokTextView = (TextView) listItemView.findViewById(R.id.miwok_text_view);
-//        miwokTextView.setText(currentSong.getMiwokTranslation());
-//
-//        TextView defaultTextView = (TextView) listItemView.findViewById(R.id.default_text_view);
-//        defaultTextView.setText(currentSong.getDefaultTranslation());
+        TextView artistTextView = (TextView) listItemView.findViewById(R.id.artist_text_view);
+        artistTextView.setText(currentSong.getArtistSong());
+
+        TextView titleTextView = (TextView) listItemView.findViewById(R.id.title_text_view);
+        titleTextView.setText(currentSong.getTitleSong());
+
+        TextView albumTextView = (TextView) listItemView.findViewById(R.id.album_text_view);
+        albumTextView.setText(currentSong.getAlbumSong());
+
+        TextView yearTextView = (TextView) listItemView.findViewById(R.id.year_text_view);
+        yearTextView.setText(currentSong.getYearSong());
 
         return listItemView;
         //return super.getView(position, convertView, parent);

@@ -19,23 +19,13 @@
             <TextView
                 android:id="@+id/explore_button"
                 android:layout_width="0dp"
+                android:textSize="32sp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="Explore" />
-
-            <TextView
-                android:id="@+id/listen_button"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="1dp"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:padding="16dp"
-                android:background="@color/colorAccent"
-                android:text="Listen" />
 
         </LinearLayout>
 
