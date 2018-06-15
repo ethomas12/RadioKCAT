@@ -3,4 +3,19 @@
 
     <string name="explore">Now Playing</string>
 
+    <string name="now_playing">Now Playing</string>
+
+    <string name="list_title">Explore</string>
+
+    <string name="default_image">Droid dude</string>
+
+    <string name="artist">Artist</string>
+
+    <string name="title">Title</string>
+
+    <string name="album">Album</string>
+
+    <string name="year">Year</string>
+
+
 </resources>

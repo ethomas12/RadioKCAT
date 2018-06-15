@@ -22,9 +22,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
-                android:background="@color/colorAccent"
+                android:textColor="@color/kcatWhite"
+                android:background="@color/kcatGray"
                 android:gravity="center"
+                android:textSize="20sp"
                 android:padding="16dp"
+                android:textStyle="bold"
                 android:text="Explore"/>
 
             <TextView
@@ -34,6 +37,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:padding="16dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
                 android:text="Listen" />
 
         </LinearLayout>
@@ -43,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
-            android:text="Now Playing:"
+            android:text="@string/now_playing"
             android:textSize="32sp"/>
 
         <ImageView
@@ -51,7 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
-            android:contentDescription="Droid dude"
+            android:contentDescription="@string/default_image"
             android:src="@mipmap/ic_launcher_round"/>
 
         <TextView
@@ -59,14 +64,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
-            android:text="Artist"
+            android:text="@string/artist"
             android:textSize="28sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
-            android:text="Title"
+            android:text="@string/title"
             android:textSize="20sp"/>
         <TextView
             android:layout_width="wrap_content"
