@@ -22,14 +22,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
-                android:gravity="center"
                 android:background="@color/colorAccent"
+                android:gravity="center"
                 android:padding="16dp"
-                android:text="Explore"
-                android:onClick="toExploreTab"/>
+                android:text="Explore"/>
 
             <TextView
-                android:id="@+id/listen_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="1dp"
@@ -43,47 +41,47 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Now Playing:"
-            android:textSize="32sp"
             android:layout_gravity="center"
-            android:layout_marginTop="32dp"/>
+            android:layout_marginTop="32dp"
+            android:text="Now Playing:"
+            android:textSize="32sp"/>
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher_round"
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
-            android:contentDescription="Droid dude"/>
+            android:contentDescription="Droid dude"
+            android:src="@mipmap/ic_launcher_round"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
             android:text="Artist"
-            android:textSize="28sp"
-            android:layout_gravity="center"
-            android:layout_marginTop="32dp"/>
+            android:textSize="28sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
             android:text="Title"
-            android:textSize="20sp"
-            android:layout_gravity="center"
-            android:layout_marginTop="16dp"/>
+            android:textSize="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
             android:text="Album"
-            android:textSize="20sp"
-            android:layout_gravity="center"
-            android:layout_marginTop="8dp"/>
+            android:textSize="20sp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Year"
-            android:textSize="20sp"
             android:layout_gravity="center"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp"
+            android:text="Year"
+            android:textSize="20sp"/>
 
 
 

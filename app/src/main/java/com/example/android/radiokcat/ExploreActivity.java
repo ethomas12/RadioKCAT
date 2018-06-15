@@ -13,25 +13,25 @@ public class ExploreActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.song_list);
 
-//        ArrayList<FamilyMember> familyMembers = new ArrayList<FamilyMember>();
-//
-//        familyMembers.add(new FamilyMember("father", "әpә"));
-//        familyMembers.add(new FamilyMember("mother", "әṭa"));
-//        familyMembers.add(new FamilyMember("son", "angsi"));
-//        familyMembers.add(new FamilyMember("daughter", "tune"));
-//        familyMembers.add(new FamilyMember("older brother", "taachi"));
-//        familyMembers.add(new FamilyMember("younger brother", "chalitti"));
-//        familyMembers.add(new FamilyMember("older sister", "teṭe"));
-//        familyMembers.add(new FamilyMember("younger sister", "kolliti"));
-//        familyMembers.add(new FamilyMember("grandmother", "ama"));
-//        familyMembers.add(new FamilyMember("grandfather", "paapa"));
-//
-//
-//        FamilyMemberAdapter adapter = new FamilyMemberAdapter(this, familyMembers);
-//
-//        ListView listView = (ListView) findViewById(R.id.list);
-//
-//        listView.setAdapter(adapter);
+        ArrayList<Song> songs = new ArrayList<Song>();
+
+        songs.add(new Song("father", "әpә"));
+        songs.add(new Song("mother", "әṭa"));
+        songs.add(new Song("son", "angsi"));
+        songs.add(new Song("daughter", "tune"));
+        songs.add(new Song("older brother", "taachi"));
+        songs.add(new Song("younger brother", "chalitti"));
+        songs.add(new Song("older sister", "teṭe"));
+        songs.add(new Song("younger sister", "kolliti"));
+        songs.add(new Song("grandmother", "ama"));
+        songs.add(new Song("grandfather", "paapa"));
+
+
+        SongAdapter adapter = new SongAdapter(this, songs);
+
+        ListView listView = (ListView) findViewById(R.id.list);
+
+        listView.setAdapter(adapter);
     }
 }
 
