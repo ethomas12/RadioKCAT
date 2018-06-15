@@ -9,13 +9,21 @@
 
     <string name="default_image">Droid dude</string>
 
-    <string name="artist">Artist</string>
+    <string name="artist">Blackbear</string>
 
-    <string name="title">Title</string>
+    <string name="title">Wish You the Best</string>
 
-    <string name="album">Album</string>
+    <string name="album">Digital Druglord</string>
 
-    <string name="year">Year</string>
+    <string name="year">2017</string>
 
+    <string name="listen">Listen</string>
 
+    <string name="place_artist">Artist</string>
+
+    <string name="place_title">Title</string>
+
+    <string name="place_album">Album</string>
+
+    <string name="place_year">Year</string>
 </resources>

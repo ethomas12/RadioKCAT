@@ -22,13 +22,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
-                android:textColor="@color/kcatWhite"
                 android:background="@color/kcatGray"
                 android:gravity="center"
-                android:textSize="20sp"
                 android:padding="16dp"
-                android:textStyle="bold"
-                android:text="Explore"/>
+                android:text="Explore"
+                android:textColor="@color/kcatWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="0dp"
@@ -37,9 +37,9 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:padding="16dp"
+                android:text="@string/listen"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:text="Listen" />
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -49,7 +49,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
             android:text="@string/now_playing"
-            android:textSize="32sp"/>
+            android:textSize="32sp" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -57,7 +57,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
             android:contentDescription="@string/default_image"
-            android:src="@mipmap/ic_launcher_round"/>
+            android:src="@mipmap/ic_launcher_round" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -65,29 +65,31 @@
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
             android:text="@string/artist"
-            android:textSize="28sp"/>
+            android:textSize="28sp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:text="@string/title"
-            android:textSize="20sp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="8dp"
-            android:text="Album"
-            android:textSize="20sp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="8dp"
-            android:text="Year"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="@string/album"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="@string/year"
+            android:textSize="20sp" />
 
 
     </LinearLayout>

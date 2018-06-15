@@ -13,10 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Find the View that shows the explore category
         TextView explore = (TextView) findViewById(R.id.explore_button);
-
-        // Set a click listener on that View
         explore.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the explore View is clicked on.
             @Override
@@ -25,7 +22,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(exploreIntent);
             }
         });
-
     }
-
 }
