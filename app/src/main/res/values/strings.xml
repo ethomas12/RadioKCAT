@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">Radio KCAT</string>
+    <string name="app_name">KCAT Player</string>
 
-    <string name="explore">Now Playing</string>
+    <string name="explore">Explore</string>
 
-    <string name="now_playing">Now Playing</string>
+    <string name="station_id">Radio KCAT</string>
 
     <string name="list_title">Explore</string>
 
-    <string name="default_image">Droid dude</string>
+    <string name="play_button">play button</string>
 
     <string name="artist">Blackbear</string>
 
@@ -26,4 +26,12 @@
     <string name="place_album">Album</string>
 
     <string name="place_year">Year</string>
+
+    <string name="home_question">Ready to Rock?</string>
+
+    <string name="now_playing">Now Playing: </string>
+
+    <string name="home">Home</string>
+
+
 </resources>

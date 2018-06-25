@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.radiokcat">
 
@@ -19,6 +20,15 @@
         <activity
             android:name=".ExploreActivity"
             android:label="@string/explore"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".ListenActivity"
+            android:label="@string/listen"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
