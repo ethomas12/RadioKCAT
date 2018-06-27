@@ -4,8 +4,10 @@ import android.content.Intent;
 import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -21,7 +23,7 @@ public class ExploreActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.song_list);
 
-        ArrayList<Song> songs = new ArrayList<Song>();
+        ArrayList<Song> songs = new ArrayList<>();
 
         songs.add(new Song("Blackbear", "Wish You the Best", "Digital Druglord", "2017"));
         songs.add(new Song("Clams Casino", "I Am God", "Instrumentals 2", "2012"));
@@ -39,35 +41,6 @@ public class ExploreActivity extends AppCompatActivity {
         ListView listView = findViewById(R.id.list);
 
         listView.setAdapter(adapter);
-
-        // Text Views on the Now Playing (Listen Activity)
-        final TextView artistView = findViewById(R.id.artist_text_view);
-        final TextView titleView = findViewById(R.id.title_text_view);
-        final TextView albumView = findViewById(R.id.album_text_view);
-        final TextView yearView = findViewById(R.id.year_text_view);
-
-        final ImageView explorePlayButton = (ImageView) findViewById(R.id.explore_play_button);
-        explorePlayButton.setImageDrawable(getResources().getDrawable(R.drawable.whiteplaybutton));
-        explorePlayButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                String mArtistView = artistView.getText().toString();
-                String mTitleView = titleView.getText().toString();
-                String mAlbumView = albumView.getText().toString();
-                String mYear = yearView.getText().toString();
-
-                // Send this to the Listen Activity
-                Intent intent = new Intent(ExploreActivity.this, ListenActivity.class);
-                // (KEYWORD, String)
-                intent.putExtra("ARTIST", mArtistView);
-                intent.putExtra("TITLE", mTitleView);
-                intent.putExtra("ALBUM", mAlbumView);
-                intent.putExtra("YEAR", mYear);
-
-                startActivity(intent);
-            }
-        });
 
     }
 }

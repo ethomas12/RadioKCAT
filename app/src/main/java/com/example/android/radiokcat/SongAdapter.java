@@ -26,21 +26,21 @@ public class SongAdapter extends ArrayAdapter<Song> {
                     R.layout.list_item, parent, false);
         }
 
-        Song currentSong = (Song) getItem(position);
+        Song currentSong = getItem(position);
 
-        TextView artistTextView = (TextView) listItemView.findViewById(R.id.artist_text_view);
+        TextView artistTextView = listItemView.findViewById(R.id.artist_text_view);
         artistTextView.setText(currentSong.getArtistSong());
 
-        TextView titleTextView = (TextView) listItemView.findViewById(R.id.title_text_view);
+        TextView titleTextView = listItemView.findViewById(R.id.title_text_view);
         titleTextView.setText(currentSong.getTitleSong());
 
-        TextView albumTextView = (TextView) listItemView.findViewById(R.id.album_text_view);
+        TextView albumTextView = listItemView.findViewById(R.id.album_text_view);
         albumTextView.setText(currentSong.getAlbumSong());
 
-        TextView yearTextView = (TextView) listItemView.findViewById(R.id.year_text_view);
+        TextView yearTextView = listItemView.findViewById(R.id.year_text_view);
         yearTextView.setText(currentSong.getYearSong());
 
         return listItemView;
-        //return super.getView(position, convertView, parent);
+
     }
 }

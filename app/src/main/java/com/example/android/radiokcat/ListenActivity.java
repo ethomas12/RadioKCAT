@@ -15,35 +15,16 @@ import java.util.ArrayList;
 import java.util.Set;
 
 public class ListenActivity extends AppCompatActivity {
-
-    String mArtistView;
-    String mTitleView;
-    String mAlbumView;
-    String mYearView;
+//
+//    String mArtistView;
+//    String mTitleView;
+//    String mAlbumView;
+//    String mYearView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.listen_item);
-
-        mArtistView = getIntent().getExtras().getString("ARTIST");
-        mTitleView = getIntent().getExtras().getString("TITLE");
-        mAlbumView = getIntent().getExtras().getString("ALBUM");
-        mYearView = getIntent().getExtras().getString("YEAR");
-
-
-        //Receive Intent passed from Explore Activity
-        TextView textViewArtist = findViewById(R.id.artist_text_view);
-        textViewArtist.setText(mArtistView);
-
-        TextView textViewTitle = findViewById(R.id.title_text_view);
-        textViewTitle.setText(mTitleView);
-
-        TextView textViewAlbum = findViewById(R.id.album_text_view);
-        textViewAlbum.setText(mAlbumView);
-
-        TextView textViewYear = findViewById(R.id.year_text_view);
-        textViewYear.setText(mYearView);
 
         //Listen page button to Landing page
         Button homeButton = findViewById(R.id.home_button);

@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
-            tools:text="@string/artist"
+            android:text="@string/artist"
             android:textSize="28sp"/>
 
         <TextView
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
-            tools:text="@string/title"
+            android:text="@string/title"
             android:textSize="20sp"/>
 
         <TextView
@@ -55,7 +55,7 @@
             android:textColor="@color/kcatBlack"
             android:layout_gravity="center"
             android:layout_marginTop="8dp"
-            tools:text="@string/album"
+            android:text="@string/album"
             android:textSize="20sp"/>
 
         <TextView
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="8dp"
-            tools:text="@string/year"
+            android:text="@string/year"
             android:textSize="20sp"/>
 
         <LinearLayout
